@@ -1,0 +1,113 @@
+#navegador ul{
+    list-style-type: none;
+    position: absolute;
+    top: 20px;
+ }
+ #navegador li{
+    display: inline;
+    text-align: left;
+    margin: 0px 50px 0 0;
+ }
+ #navegador li a {
+    padding: 7px 7px 7px 7px;
+    color: white;
+    border: 1px solid black;
+    text-decoration: none;
+ }
+ #navegador li a:hover{
+    background-color:white;
+    color: blue;
+ }
+
+.Barra{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* A partir de aqui empieza el estilizado de las Herramientas */
+
+.Herramientas_Cursor{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.Herramientas_Search{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+.Herramientas_Bar{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+
+.Herramientas_Cut{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+
+.Herramientas_Select{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+}
+
+.Herramientas_Change{
+    position: absolute;
+    top: 700px;
+    left: 100px;
+}
+
+/* A partir de aqui empieza el estilizado del Texto de las herramientas */
+
+.Text_hr_Cursor{
+    font-size: xx-large;
+    position: absolute;
+    top: 180px;
+    left: 200px;
+}
+.Text_hr_Search{
+    font-size: xx-large;
+    position: absolute;
+    top: 280px;
+    left: 200px;
+}
+.Text_hr_Bar{
+    font-size: xx-large;
+    position: absolute;
+    top: 380px;
+    left: 200px;
+}
+.Text_hr_Cut{
+    font-size: xx-large;
+    position: absolute;
+    top: 480px;
+    left: 200px;
+}
+.Text_hr_Select{
+    font-size: xx-large;
+    position: absolute;
+    top: 580px;
+    left: 200px;
+}
+.Text_hr_Change{
+    font-size: xx-large;
+    position: absolute;
+    top: 680px;
+    left: 180px;
+}
+
+
+
+
+
+
+
+
+
