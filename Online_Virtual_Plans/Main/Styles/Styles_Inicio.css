@@ -1,0 +1,111 @@
+
+.Menu{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* Estilos para el navegador */
+
+#navegacion ul{
+    list-style-type: none;
+    position: absolute;
+    top: 20px;
+ }
+ #navegacion li{
+    display: inline;
+    text-align:left;
+    margin: 0px 50px 0 0;
+ }
+ #navegacion li a {
+    padding: 7px 7px 7px 7px;
+    color: white;
+    border: 1px solid black;
+    text-decoration: none;
+ }
+ #navegacion li a:hover{
+    background-color:white;
+    color: blue;
+ }
+
+/* Estilo Marca de agua */
+
+.Marca{
+   position: absolute;
+   top: 0px;
+   right: 25px;
+}
+
+.Preguntas{
+   
+   position: absolute;
+   top: 190px;
+   left: 100px;
+}
+
+.Fondo{
+   position: absolute;
+   top: 190px;
+   left: 600px;
+}
+
+.Ejemplo_1{
+   position: absolute;
+   top: 390px;
+   left: 750px;
+}
+
+.Ejemplo_2{
+   position: absolute;
+   top: 1000px;
+   left: 750px;
+}
+
+/* Textos */
+
+.Text_Centro{
+   font-size: xx-large;
+   position: absolute;
+   top: 200px;
+   left: 900px;
+}
+
+.Text_Casa_A{
+   font-size:x-large;
+   position: absolute;
+   top: 800px;
+   left: 900px;
+}
+
+
+.Text_Casa_B{
+   font-size:x-large;
+   position: absolute;
+   top: 1400px;
+   left: 900px;
+}
+
+
+.Text_Pr_1{
+   font-size:x-large;
+   position: absolute;
+   top: 350px;
+   left: 120px;
+}
+
+
+.Text_Pr_2{
+   font-size:x-large;
+   position: absolute;
+   top: 500px;
+   left: 120px;
+}
+
+.Text_Pr_3{
+   font-size:x-large;
+   position: absolute;
+   top: 700px;
+   left: 120px;
+}
+
+

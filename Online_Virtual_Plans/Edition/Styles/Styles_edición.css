@@ -64,6 +64,25 @@
     left: 100px;
 }
 
+/* Herramientas Lado derecho */
+
+.Herramientas_Linea_A{
+    position: absolute;
+    top: 300px;
+    right: 120px;
+}
+
+
+.Herramientas_Linea_B{
+    position: absolute;
+    top: 600px;
+    right: 130px;
+}
+
+
+
+
+
 /* A partir de aqui empieza el estilizado del Texto de las herramientas */
 
 .Text_hr_Cursor{
@@ -103,9 +122,18 @@
     left: 180px;
 }
 
+.Marca{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+}
 
-
-
+.Text_Pack{
+    font-size: xx-large;
+    position: absolute;
+    top: 150px;
+    right: 170px;
+}
 
 
 
