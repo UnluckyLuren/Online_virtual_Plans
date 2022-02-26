@@ -1,0 +1,147 @@
+body{  /* Fondo */
+    margin: 0;
+    /* Modifica el margen */
+    padding: 0;
+    box-sizing: border-box;
+    /* Modifica el margen */
+    background-image: url("https://www.theagilityeffect.com/app/uploads/2019/03/00_VINCI-ICONOGRAPHIE-GettyImages-890132412_1280x680.jpg");
+    /* Inprime una imagen de fondo */
+    background-position: center;
+    /* Es para centrar la imagen */
+    background-repeat: no-repeat;
+    /* Parq que no se repita la imagen al hacer zoom */
+    background-size: cover;
+    /* Es para renderizar la imagen */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Cambia el tipo de letra al texto */
+}
+
+
+.container{ /* Perfil del usuario */
+    display: flex;
+    /* Es para darle la forma adaptable a la pantalla */
+    align-items: center;
+    /* Es para centrar verticalmente el perfil del usario */
+    justify-content: center;
+    /* Es para centrar horizaontalmente el perfil del usario */
+    height: 100vh;
+    /* Es para centrar la imagen del perfil del usuario y que avarque el 100% de la pantalla*/
+}
+
+img{ /* Perfil del usuario medidas */
+    width: 100px;
+    /* Cambia la anchura */
+    height: 100px;
+    /* Cambia la altura */
+    margin-left: 110px;
+    /* Es para centarlo */
+}
+
+h2{  /* Titulo de registrarse */
+    text-align: center;
+    /* Centra el texto */
+    color: white;
+    /* Cambia el color del titulo */
+}
+
+input {         /* Cubo trasnparente */
+    display: block;
+    width: 300px;
+    /* Cambia lo alto del cuadrado */
+    height: 40px;
+    /* Cambia lo ancho del cuadrado */
+    margin-bottom: 20px;
+    /* Separa los botones de usuario y contraseña */
+    padding: 0 15px;
+    /* Ensancha mas el cuadro */
+    font-size: 18px;
+    /* Cambia el tamaño de la letra */
+    outline: none;
+    /* Quita las lineas negras */
+    border: none;
+    /* Quita los bordes */
+    background: transparent;
+    /* Esconde los botones */
+    color: white;
+    /* Cambia el tipo de color */
+    border-bottom: 2px solid white;
+    /* Genera vordes de tipo solido y de color blanco */
+}
+
+.check {         /* Cubo trasnparente medidas */
+    width: 15px;
+     /* Cambia la anchura */
+    height: 15px;
+    /* Cambia la altura */
+    display: inline;
+    /* Es para juntar el check con el recuerdame */
+}
+
+.container_form{  /* Cubo trasnparente color */
+    background-color: #0a1e35;
+    border-radius: 15px;
+    /* Es para quitar los bordes del cubo */
+    padding: 40px;
+    /* Es para separarlos */
+    opacity: 0.9;
+    /* Forma un espacio borroso */
+}
+
+a, p {  /* Boton de terminos */
+    color: white;
+    /* Cambia el color */
+    text-decoration: none;
+    /* Quita el color de texto azulado del link */
+    margin-left: 15px;
+    /* Lo separa unso pixeles a la derecha */
+    margin-top: 40px;
+}
+
+.boton { /* Boton de registrarse */
+    width: 150px;
+    /* Cambia la anchura del boton */
+    border-radius: 15px;
+    /* Forma bordes curveados */
+    background-color: #048620;
+    /* Cambia el boton de inicio de secion */
+    color: white;
+    /* Cambia el color */
+    margin-top: 30px;
+    /* Es para separarlo */
+    border: none;
+    /* Sin bordes */
+    border-bottom: 4px solid #0b5a1c;
+    /* Cambia el color del boton, es decir, le da una tipo sombra */
+    margin-left: 80px;
+    /* Lo centramso */
+}
+
+label {  /* Boton de terminos 1 */
+    text-align: initial;
+    /* Centra el texto */
+    color: white;
+    /* Cambia el color del titulo */
+    margin-left: 0px;
+    /* Lo separa unso pixeles a la derecha */
+    margin-top: 0px;
+}
+
+
+a:hover { /* Boton ir al inicio de secion */
+    color: #b8b8b8b8
+    /* Hace cambiar de color el texto cuando pasa el mouse por encima */
+}
+
+label:hover {  /* Boton de terminos 2 */
+    color: #b8b8b8b8
+    /* Hace cambiar de color el texto cuando pasa el mouse por encima */
+}
+
+.boton:active { /* Boton de registro */
+    background-color: #0b5a1c;
+    /* Cambia el color cuando el mouse hace click en el boton */
+    width: 145px;
+    /* Reduce la anchura del boton a 145, es deci, pasa de 150 a 145 */
+}
+
+/* ----------------------------------------------------------- */
