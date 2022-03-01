@@ -1,0 +1,121 @@
+/* *{
+	margin:0px;
+	padding:0px;
+	font-family: verdana;
+	color:#bcbcbc;
+} */
+
+body {
+	background-image: url(../img/fondoeditor.jpeg);
+}
+
+.ejemplos img{
+	border: none;
+	margin-left: 150px;
+}
+
+.boton {
+	width: 140px;
+    /* Cambia la anchura del boton */
+    border-radius: 10px;
+    /* Forma bordes curveados */
+    background-color: #048620;
+    /* Cambia el boton de inicio de secion */
+    color: white;
+    /* Cambia el color */
+    margin-top: 0px;
+    /* Es para separarlo */
+    border: none;
+    /* Sin bordes */
+    border-bottom: 4px solid #0b5a1c;
+    /* Cambia el color del boton, es decir, le da una tipo sombra */
+    margin-left: 1740px;
+    /* Lo centramos */
+}
+
+
+/*menu lateral*/
+
+/* div#barra-lateral{
+	position:fixed;
+	width:55px;
+	height:100%;
+	background-color: white;
+	overflow:hidden;
+}
+
+div#barra-lateral:hover{
+	width:180px;
+}
+
+div#logo-menu{
+	width:40px;
+	height:40px;
+	margin:10px;
+	background-image:url(pictures/menu.png);
+}
+
+div#contenedor-logos-primero{
+	margin-top:70px;
+}
+
+div.contenedor-logos{
+	margin-top:20px;
+	margin-left:10px;
+	width:130px;
+	height:40px;
+	
+}
+
+div.logo{
+	width:40px;
+	height:40px;
+	background-image:url(pictures/menu.png);
+	float: left;
+}
+
+p.title-menu{
+	margin-left:50px;
+	line-height: 40px;
+	color: black;
+}
+
+/*body*/
+
+/* div#body{
+	position:absolute;
+	right:0px;
+	min-height:300px;
+	left:170px;
+}
+
+div#texto{
+	width:50%;
+	min-height:300px;
+	float:left;
+}
+
+p#texto-contenedor-1{
+	font-size:25px;
+	margin:30px;
+	margin-top:50px;
+	color:#595959;
+}
+
+div#foto{
+	width:50%;
+	height:300px;
+	float:right;
+}
+
+img#foto-contenedor-1{
+	margin:auto;
+	margin-top:15px;
+	width:300px;
+	display:block;
+}
+
+.ajuste legend{
+	position: absolute;
+	left: 60px;
+} */
